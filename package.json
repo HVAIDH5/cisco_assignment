@@ -1,0 +1,12 @@
+{
+  "name": "starter-repo",
+  "version": "1.0.0",
+  "description": "Jumping off point for Cisco's backend Forage program",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
