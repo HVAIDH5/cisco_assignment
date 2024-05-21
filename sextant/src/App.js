@@ -4,6 +4,7 @@ import './App.css';
 import Banner from './components/Banner.js';
 import Exhibit from './components/Exhibit.js';
 import PublicIP from './components/PublicIp.js';
+import Latency from './components/Latency.js';
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
         <PublicIP version="v6" />
       </Exhibit>
       <Exhibit heading="Latency">
-        <p>Your latency metrics will be displayed here.</p>
+        <Latency />
       </Exhibit>
+      
     </div>
   );
 }

@@ -12,6 +12,7 @@ const PublicIP = ({ version }) => {
         const response = await fetch(
           `https://api${version === 'v6' ? '6' : ''}.ipify.org?format=json`
         );
+        console.log(response)
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
